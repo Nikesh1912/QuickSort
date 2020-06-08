@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<title>golem:open world games</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--meta http-equiv="refresh" content="50"-->
+  
+  <!-- Bootstrap --> 
+  <!--link href= "css/bootstrap.min.css" rel= "stylesheet"-->
+
+  <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+  
+<body>
+  <header>
+    <a href="index.html" class="header-icon">golem </a>  
+    <nav>
+      <ul>
+        <li><a href="dash.html">dash board </a></li>
+        <li><a href="faq.html">faq </a></li>
+        <li><a href="contact.html">contact </a></li>
+      </ul>
+
+    <div class="drop-menu">
+      <ul>
+        <li>
+          <a href="#" class="drop-platform">platform</a>
+           <ul>
+             <li><a href="ps4games.html">playstation</a></li>
+             <li><a href="xboxgames.html">xbox - one</a></li>
+             <li><a href="outnow.html">Out Now</a></li>    
+           </ul>
+        </li>
+      </ul>      
+     </div>
+    </nav>
+  </header>
+
+<!--map-container-->
+
+<div class="container">
+  <div class="box">
+    <div class="row">
+      <div class="col-lg-12">
+        <hr>
+         <h2 class="intro-text">Contact -
+          <strong>it's me 'golem'</strong>
+        </h2>
+        <hr>
+      </div>
+
+   <div class="map-text">
+    <div class="container-2">
+      <h2>address</h2>
+
+      <p>murugeshpalya , bengaluru , <br> karnataka , india <br> pin : 560017    
+      </p>
+     <h4>Email me : <a href="">niksgolem.16@gmail.com</a></h4> 
+      <p>Or Follow me :</p>
+    
+      <a href="https://www.facebook.com/niksgolem/?modal=composer&notif_id=1537012673267685&notif_t=aymt_upsell_tip">
+        <div class="icon-sm">
+           <i class="fab fa-facebook"></i>
+        </div>
+      </a>
+
+        <a href="https://www.youtube.com/channel/UCCVqAMGz5cNAyeytO81PDfg/      featured?view_as=public">
+        <div class="icon-sm">
+            <i class="fab fa-youtube"></i>
+        </div>
+      </a>
+
+      <a href="https://www.instagram.com/niksgolem.16/">
+        <div class="icon-sm">
+           <i class="fab fa-instagram"></i>
+        </div>
+      </a>
+
+      <a href="" id="get_location">Get Locatio</a>
+    </div>
+     
+   
+    <script>
+      var c = function(pos){
+        var lat = pos.coords.latitude,
+           long = pos.coords.longitude,
+         coords = lat + ', ' + long;
+
+         document.getElementById('google_map').setAttribute('src',
+          'https://www.google.com/map/embed?q='+ coords + '&z=60 & output=embed');
+      }
+      document.getElementById('get_location').onclick = function(){
+        navigator.geolocation.getCurrentPosition(c);
+        return false;
+      }
+    </script>
+
+      <iframe id="google_map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.5522447213!2d77.49085260519806!3d12.954294598506568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1538333510343" width="1080" height="730" frameborder="0" style="border:0" allowfullscreen></iframe>
+     </div>   
+    </div>
+  </div>
+</div>
+
+<div class="container-3">
+  <div class="box">
+    <div class="row">
+      <div class="col-lg-12">
+        <hr>
+         <h2 class="intro-text">Contact -
+          <strong>Form</strong>
+        </h2>
+        <hr>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <form class="contact-form">
+        <tr> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+          <td>
+           Name &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname" 
+           size="20" placeholder="">
+          </td> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+          <td>
+            &nbsp;&nbsp;&nbsp;&nbsp; Email Address &nbsp;&nbsp;&nbsp;<input 
+            type="text" name="email" size="20" placeholder="">
+         </td> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <td>
+          Phone Number
+          <input type="text" name="ph.no." size="20" placeholder="">
+         </td>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+         <td>
+           Message
+          <textarea rows="30" cols="230"></textarea>
+         </td>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+         <td>
+           <button><a href="">Submit</a></button>
+        </td>
+       </tr>
+
+      </form>
+     </div>   
+    </div>
+  </div>
+</div>
+
+ <footer>  
+     <ul class="footer-links-main">
+        <li><a href="index.html">home </a></li>
+        <li><a href="faq.html">faq </a></li>
+        <li><a href="contact.html">contact </a></li>
+        <li><a href="gallery.html">Gallery </a></li>
+        <li><a href="dash.html">dashboard</a></li>
+      </ul>
+
+      <ul class="footer-links-sec"> <!--sec=secondary-->
+        <li> <p> connect </p> </li>
+        <li> <p> niksgolem.16@gmail.com </p> </li>
+        <li><a href="https://www.youtube.com/channel/UCCVqAMGz5cNAyeytO81PDfg/      featured?view_as=public">youtube channel</a></li>
+        <li><a href="https://www.instagram.com/niksgolem.16/">instgram</a></li>
+        <li><a href="https://www.facebook.com/niksgolem/?modal=composer&notif_id=1537012673267685&notif_t=aymt_upsell_tip">social media</a></li>
+      </ul> 
+    <div class="footer-sm"> <!--sm=social media-->
+
+      <a href="https://www.youtube.com/channel/UCCVqAMGz5cNAyeytO81PDfg/      featured?view_as=public">
+        <div class="icon-sm">
+            <i class="fab fa-youtube"></i>
+        </div>
+      </a>
+
+      <a href="https://www.facebook.com/niksgolem/?modal=composer&notif_id=1537012673267685&notif_t=aymt_upsell_tip">
+        <div class="icon-sm">
+           <i class="fab fa-facebook"></i>
+        </div>
+      </a>
+
+      <a href="https://www.instagram.com/niksgolem.16/">
+        <div class="icon-sm">
+           <i class="fab fa-instagram"></i>
+        </div>
+      </a>
+    </div>   
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
